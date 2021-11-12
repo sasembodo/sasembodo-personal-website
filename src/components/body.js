@@ -38,7 +38,7 @@ const Body = () => {
                             <div className='intro'>
                                 <h2>Hello, I am Sri Aryo Sembodo</h2>
                                 <h3>Frontend Developer</h3>
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am Frontend Developer. I am a graduate from Agriculture Faculty of Brawijaya University. Due to my interest in Mobile Development, I have created several mobile applications on several projects.</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am Frontend Developer. I am a graduate from Agriculture Faculty of Brawijaya University. Due to my interest in Software Development, I have created several mobile applications on several projects.</p>
                             </div>
                             <Row>
                                 <Col>
