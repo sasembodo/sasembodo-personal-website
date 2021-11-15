@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.079b46c9.chunk.css",
+    "main.js": "/static/js/main.60c63198.chunk.js",
+    "main.js.map": "/static/js/main.60c63198.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c45d378e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c45d378e.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.cb6e208d.chunk.js": "/static/js/2.cb6e208d.chunk.js",
+    "static/js/2.cb6e208d.chunk.js.map": "/static/js/2.cb6e208d.chunk.js.map",
+    "static/js/3.11d7fbb3.chunk.js": "/static/js/3.11d7fbb3.chunk.js",
+    "static/js/3.11d7fbb3.chunk.js.map": "/static/js/3.11d7fbb3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.079b46c9.chunk.css.map": "/static/css/main.079b46c9.chunk.css.map",
+    "static/js/2.cb6e208d.chunk.js.LICENSE.txt": "/static/js/2.cb6e208d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bg.8f7150d5.jpg",
+    "static/media/css3.22ed883b.png": "/static/media/css3.22ed883b.png",
+    "static/media/email.00cad07f.png": "/static/media/email.00cad07f.png",
+    "static/media/filmtop.310990bb.png": "/static/media/filmtop.310990bb.png",
+    "static/media/github.22cfdd1c.png": "/static/media/github.22cfdd1c.png",
+    "static/media/gitlab.c3b1dcfd.png": "/static/media/gitlab.c3b1dcfd.png",
+    "static/media/html5.b1491a64.png": "/static/media/html5.b1491a64.png",
+    "static/media/instagram.75e0546a.png": "/static/media/instagram.75e0546a.png",
+    "static/media/kamusalkohol.9c134591.png": "/static/media/kamusalkohol.9c134591.png",
+    "static/media/linkedin.f249b382.png": "/static/media/linkedin.f249b382.png",
+    "static/media/photo.65f425f3.jpg": "/static/media/photo.65f425f3.jpg",
+    "static/media/prokarir.0574e201.png": "/static/media/prokarir.0574e201.png",
+    "static/media/react.060115c3.png": "/static/media/react.060115c3.png",
+    "static/media/sasembodo.1d4bc7cc.png": "/static/media/sasembodo.1d4bc7cc.png",
+    "static/media/sholawatyuk.34cb9c10.png": "/static/media/sholawatyuk.34cb9c10.png",
+    "static/media/wave1.28bf2f85.svg": "/static/media/wave1.28bf2f85.svg",
+    "static/media/wave2.d53c2063.svg": "/static/media/wave2.d53c2063.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c45d378e.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.cb6e208d.chunk.js",
+    "static/css/main.079b46c9.chunk.css",
+    "static/js/main.60c63198.chunk.js"
+  ]
+}
