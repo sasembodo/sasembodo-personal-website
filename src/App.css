@@ -160,6 +160,11 @@ nav ul li{
   margin: 0rem, 10rem, 0rem, 10rem;
 }
 
+.row-profile {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
 .profile .photo {
   height: 100vh;
 }
@@ -208,12 +213,12 @@ nav ul li{
 }
 
 .profile .skill {
-  height: 50vh;
+  height: auto;
   background-color: #eeeeee;
 }
 
 .skill-wrapper {
-  padding: 7rem;
+  padding: 7%;
 }
 
 .thumb {
@@ -225,7 +230,8 @@ nav ul li{
 }
 
 .project-wrapper {
-  padding: 7rem;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .project-wrapper h2 {
@@ -237,9 +243,9 @@ nav ul li{
 }
 
 .row-project {
-  padding-top: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-top: 5rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .row-project h4 {

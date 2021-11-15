@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row, Col, Figure} from 'react-bootstrap'
+import {Row, Col, Container} from 'react-bootstrap'
 
 import photo from '../assets/photo.jpg'
 import htmlIcon from '../assets/html5.png'
@@ -29,37 +29,37 @@ const Body = () => {
             <div className='profile'>
                 <div className='photo d-flex align-items-center justify-content-center' id='1'>
                     <Row className="row-profile d-flex align-items-center justify-content-center">
-                        <Col xs={4} >       
+                        <Col xs={12} lg={4}>       
                             <div style={{display: 'flex', justifyContent: 'center'}}>
                                 <img className='image' src={photo} alt='Photo'/>
                             </div>                     
                         </Col>
-                        <Col xs={6} >
+                        <Col xs={12} lg={8}>
                             <div className='intro'>
                                 <h2>Hello, I am Sri Aryo Sembodo</h2>
                                 <h3>Frontend Developer</h3>
                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am Frontend Developer. I am a graduate from Agriculture Faculty of Brawijaya University. Due to my interest in Software Development, I have created several mobile applications on several projects.</p>
                             </div>
                             <Row>
-                                <Col>
+                                <Col xs={12} md={6} lg={3}>
                                     <a className='social d-flex align-items-center justify-content-center' href='https://github.com/sasembodo' target='_blank'>                                        
                                                 <img className='socialMedia' src={github} alt='Picture'/>
                                                 <p>sasembodo</p>
                                     </a>
                                 </Col>
-                                <Col>
+                                <Col xs={12} md={6} lg={3}>
                                     <a className='social d-flex align-items-center justify-content-center' href='https://gitlab.com/sasembodo' target='_blank'>                                        
                                                 <img className='socialMedia' src={gitlab} alt='Picture'/>
                                                 <p>sasembodo</p>
                                     </a>
                                 </Col>
-                                <Col>
+                                <Col xs={12} md={6} lg={3}>
                                     <a className='social d-flex align-items-center justify-content-center' href='https://www.linkedin.com/in/sasembodo/' target='_blank'>                                        
                                                 <img className='socialMedia' src={linkedin} alt='Picture'/>
                                                 <p>sasembodo</p>
                                     </a>
                                 </Col>
-                                <Col>
+                                <Col xs={12} md={6} lg={3}>
                                     <a className='social d-flex align-items-center justify-content-center' href='https://www.instagram.com/sasembodo/?hl=en' target='_blank'>                                        
                                                 <img className='socialMedia' src={instagram} alt='Picture'/>
                                                 <p>sasembodo</p>
@@ -73,55 +73,41 @@ const Body = () => {
                 <div className='skill' id='2'>
                     <div className='skill-wrapper' >
                         <Row className='row-skill d-flex align-items-center justify-content-center' >
-                            <Col xs={2}>
+                            <Col xs={6} md={4} lg={2}>                                
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <img className='thumb' src={htmlIcon} alt='html5'/>
-                                </div>   
+                                </div> 
+                                <h3 style={{display: 'flex', justifyContent: 'center'}} >HTML 5</h3>  
                             </Col>
-                            <Col xs={2}>
+                            <Col xs={6} md={4} lg={2}>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <img className='thumb' src={cssIcon} alt='css3'/>
-                                </div>   
+                                </div> 
+                                <h3 style={{display: 'flex', justifyContent: 'center'}} >CSS 3</h3>  
                             </Col>
-                            <Col xs={2}>
+                            <Col xs={6} md={4} lg={2}>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <img className='thumb' src={bootstrapIcon} alt='bootstrap'/>
-                                </div>   
-                            </Col>
-                            <Col xs={2}>
-                                <div style={{display: 'flex', justifyContent: 'center'}}>
-                                    <img className='thumb' src={jsIcon} alt='javascript'/>
-                                </div>   
-                            </Col>
-                            <Col xs={2}>
-                                <div style={{display: 'flex', justifyContent: 'center'}}>
-                                    <img className='thumb' src={reactIcon} alt='reactnative'/>
-                                </div>   
-                            </Col>
-                            <Col xs={2}>
-                                <div style={{display: 'flex', justifyContent: 'center'}}>
-                                    <img className='thumb' src={reactIcon} alt='reactjs'/>
-                                </div>   
-                            </Col>
-                        </Row>
-                        <Row className='row-skill d-flex align-items-center justify-content-center' >
-                            <Col xs={2}>
-                                <h3 style={{display: 'flex', justifyContent: 'center'}} >HTML 5</h3> 
-                            </Col>
-                            <Col xs={2}>
-                                <h3 style={{display: 'flex', justifyContent: 'center'}} >CSS 3</h3> 
-                            </Col>
-                            <Col xs={2}>
+                                </div>
                                 <h3 style={{display: 'flex', justifyContent: 'center'}} >Bootstrap</h3> 
                             </Col>
-                            <Col xs={2}>
+                            <Col xs={6} md={4} lg={2}>
+                                <div style={{display: 'flex', justifyContent: 'center'}}>
+                                    <img className='thumb' src={jsIcon} alt='javascript'/>
+                                </div>
                                 <h3 style={{display: 'flex', justifyContent: 'center'}} >Javascript</h3> 
                             </Col>
-                            <Col xs={2}>
+                            <Col xs={6} md={4} lg={2}>
+                                <div style={{display: 'flex', justifyContent: 'center'}}>
+                                    <img className='thumb' src={reactIcon} alt='reactnative'/>
+                                </div>
                                 <h3 style={{display: 'flex', justifyContent: 'center'}} >React Native</h3> 
                             </Col>
-                            <Col xs={2}>
-                                <h3 style={{display: 'flex', justifyContent: 'center'}} >React JS</h3> 
+                            <Col xs={6} md={4} lg={2}>
+                                <div style={{display: 'flex', justifyContent: 'center'}}>
+                                    <img className='thumb' src={reactIcon} alt='reactjs'/>
+                                </div>
+                                <h3 style={{display: 'flex', justifyContent: 'center'}} >React JS</h3>   
                             </Col>
                         </Row>
                     </div>
@@ -131,12 +117,12 @@ const Body = () => {
                     <div className='project-wrapper'>
                         <h2 className='project-title d-flex align-items-center justify-content-center'>PROJECTS</h2>
                         <Row className='row-project d-flex align-items-center justify-content-center' >
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <img className='pict' src={prokarir} alt='prokarir'/>
                                 </div>   
                             </Col>
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <h4>Prokarir</h4>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prokarir is an application that meets Job Seeker and Recruiter. The main features that are presented includes applying for jobs, recruit talent, and talent data.</p>
@@ -144,25 +130,25 @@ const Body = () => {
                             </Col>
                         </Row>
                         <Row className='row-project d-flex align-items-center justify-content-center' >
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <h4>Film Top</h4>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Film Top is an application that reviews some movies. One of main feature that presented is a link to movie trailer.</p>
                                 </div>   
                             </Col>
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <img className='pict' src={filmtop} alt='filmtop'/>
                                 </div>   
                             </Col>
                         </Row>
                         <Row className='row-project d-flex align-items-center justify-content-center' >
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <img className='pict' src={kamusalkohol} alt='kamusalkohol'/>
                                 </div>   
                             </Col>
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <h4>Kamus Alkohol</h4>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kamus Alkohol is an application that contains bar-style recipes. This application designed with simple appearance. Simple appearance are expected to make it easier for users to use it.</p>
@@ -170,13 +156,13 @@ const Body = () => {
                             </Col>
                         </Row>    
                         <Row className='row-project d-flex align-items-center justify-content-center' >
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <h4>Sholawat Yuk</h4>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sholawat Yuk is an audio player application that contains beautiful sounds of sholawat.</p>
                                 </div>   
                             </Col>
-                            <Col xs={6}>
+                            <Col xs={12} lg={6}>
                                 <div style={{display: 'flex', justifyContent: 'center'}}>
                                     <img className='pict' src={sholawatyuk} alt='sholawatyuk'/>
                                 </div>   
