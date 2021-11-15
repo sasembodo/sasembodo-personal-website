@@ -166,7 +166,7 @@ nav ul li{
 }
 
 .profile .photo {
-  height: 100vh;
+  height: auto;
 }
 
 .photo h2 {
